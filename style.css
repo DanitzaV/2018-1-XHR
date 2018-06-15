@@ -1,0 +1,30 @@
+#dogeProgress{
+    text-align: center;
+    margin-top: 11%;
+}
+.dogeimg{
+    animation: animated_div 2s infinite;
+   
+  }
+
+@keyframes animated_div {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.doges {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#dogeReceptor {
+    margin-left: 70px;
+    margin-top: 10%;
+}
+.pdoge {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
